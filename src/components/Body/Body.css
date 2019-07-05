@@ -1,0 +1,16 @@
+.body {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+.image {
+    padding-left: 15px;
+    max-height: 100%;
+    max-width: 100%;
+}
+.bodyText{
+  font-size: 20px;
+  margin: auto 0;
+  color:  rgb(148, 168, 241);
+}

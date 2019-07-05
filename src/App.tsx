@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Body from './components/Body/Body'
 import DropArea from './components/DropArea/DropArea'
 import Header from './components/Header/Header'
 import Result from './components/Result/Result'
@@ -25,6 +26,7 @@ class App extends React.Component<{},IState>{
     return (
       <div>
         <Header />
+        <Body />
         <DropArea setResults={this.resultstate} />
         <Result result={this.state.result} filelength={this.state.filelength} />
       </div>
